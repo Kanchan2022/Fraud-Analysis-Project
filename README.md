@@ -19,7 +19,7 @@ Dataset: https://www.kaggle.com/datasets/ealaxi/paysim1?utm_source=chatgpt.com
 | Random Forest | 0.081 | 0.990 | 0.149 | 0.900 |
 | **XGBoost (Selected)** | **0.634** | **0.959** | **0.764** | **0.959** |
 
-## Risk Scoring Logic:
+## 📐 Risk Scoring Logic:
 The behavioral engine pre-filters transactions using a deterministic heuristic algorithm before sending high-risk payloads to the ML pipeline:
 Risk\_Score = (LargeAmt\_Flag \times 30) + (HighRiskType\_Flag \times 40) + (AccountDrained\_Flag \times 30) 
 High Risk (>70): Trigger immediate multi-factor authentication (2FA) or route to the manual review queue.
