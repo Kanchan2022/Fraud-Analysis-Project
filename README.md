@@ -5,6 +5,9 @@ An end-to-end machine learning pipeline and risk-scoring engine designed to iden
 Dataset: https://www.kaggle.com/datasets/ealaxi/paysim1?utm_source=chatgpt.com
 
 ## 🚀 Key Insights & Features
+
+PPT: https://docs.google.com/presentation/d/1xvcd5CjYg5KPbT8iPwecOk0PktNeQsR6TbOSu1DGTTQ/edit?pli=1&slide=id.p3#slide=id.p3
+
 * **Behavioral Risk Engine:** Implements a composite scoring algorithm tracking account-draining patterns (where sender balances are completely depleted).
 * **Imbalanced Data Optimization:** Tuned specifically for low-prevalence target classes (0.129% baseline fraud rate) using PR-AUC rather than standard accuracy metrics.
 * **Production-Ready Benchmarking:** Evaluates Logistic Regression, Random Forests, and XGBoost to find the optimal threshold balancing fraud capture (Recall) and false alarms (Precision).
