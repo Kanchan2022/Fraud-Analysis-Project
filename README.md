@@ -27,3 +27,6 @@ The behavioral engine pre-filters transactions using a deterministic heuristic a
 Risk\_Score = (LargeAmt\_Flag \times 30) + (HighRiskType\_Flag \times 40) + (AccountDrained\_Flag \times 30) 
 High Risk (>70): Trigger immediate multi-factor authentication (2FA) or route to the manual review queue.
 Low Risk (<30): White-listed for instant automated processing.
+
+Notebook 1: EDA + Fraud Insights
+Notebook 2: ML Modeling
